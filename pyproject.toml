@@ -12,3 +12,6 @@ dependencies = ["pandas>=2.0"]
 [tool.ruff]
 line-length = 70
 target-version = "py310"
+
+[tool.flit.module]
+name = "validation_data" #diz ao flit explicitamente qual módulo deve ser empacotado
