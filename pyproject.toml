@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit_core>=3.8"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "validation-data"
+version = "0.1.0"
+description = "validating data from many sources"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0"]
+
+[tool.ruff]
+line-length = 70
+target-version = "py310"
